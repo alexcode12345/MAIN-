@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --pharma-green: #176b50;
+    --pharma-dark: #103d32;
+    --pharma-gold: #d8b45b;
+    --pharma-bg: #f4f7f5;
+    --pharma-panel: #ffffff;
+    --pharma-panel2: #f7faf8;
+    --pharma-line: #e2e9e4;
+    --pharma-text: #17251f;
+    --pharma-muted: #718078;
+  }
+
+  [data-theme="dark"] {
+    --pharma-green: #238968;
+    --pharma-dark: #0b261f;
+    --pharma-gold: #e2c16e;
+    --pharma-bg: #101916;
+    --pharma-panel: #19231f;
+    --pharma-panel2: #202c27;
+    --pharma-line: #2c3b34;
+    --pharma-text: #edf4ef;
+    --pharma-muted: #a4b2aa;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: var(--pharma-bg);
+    color: var(--pharma-text);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(23, 107, 80, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(23, 107, 80, 0.4);
+}

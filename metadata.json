@@ -1,0 +1,6 @@
+{
+  "name": "PharmaCore Pro",
+  "description": "Comprehensive pharmacy operations system for stock control, batch expiry tracking, sales POS, daily registers, and spreadsheet analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
